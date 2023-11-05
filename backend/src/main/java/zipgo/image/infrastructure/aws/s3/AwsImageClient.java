@@ -8,7 +8,7 @@ import zipgo.image.application.ImageClient;
 
 @Component
 @RequiredArgsConstructor
-public class S3ImageClient implements ImageClient {
+public class AwsImageClient implements ImageClient {
 
     private final AwsS3Credentials awsS3Credentials;
     private final S3Uploader s3Uploader;
